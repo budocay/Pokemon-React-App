@@ -7,7 +7,7 @@ type Props = {
 };
 
 
-const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#f44336'}) => {
+const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#009688'}) => {
     const [color, setColor] = useState<string>();
     const [dateCaptured, setDate] = useState(new Date());
 
@@ -21,12 +21,12 @@ const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#f44336'
     }
 
     const hideBorder = () => {
-        setColor('#f5f5f5') // on remet la bordure en gris
+        setColor('#9e9e9e') // on remet la bordure en gris
     }
 
     return (
         <div className="col s6 m4" onMouseEnter={showBorder} onMouseLeave={hideBorder}>
-            <div className="card horizontal" style={{ border: 'solid 4px',borderColor: color }}>
+            <div className="card horizontal" style={{ border: 'solid 4px', borderColor: color }}>
                 <div className="card-image">
                   <img src={pokemon.picture} alt={pokemon.name}/>
                 </div>
@@ -35,7 +35,6 @@ const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#f44336'
                         <p>{pokemon.name}</p>
                         <p><small>{dateCaptured.toString()}</small></p>
                     </div>
-
                 </div>
             </div>
         </div>
