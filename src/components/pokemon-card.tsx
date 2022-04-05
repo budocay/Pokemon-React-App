@@ -1,5 +1,7 @@
 import React, {FunctionComponent, useState} from "react";
 import Pokemon from '../models/pokemon'
+import formatDate from "../helpers/format-date";
+import formatType from "../helpers/format-type";
 
 type Props = {
     pokemon: Pokemon,
@@ -9,12 +11,6 @@ type Props = {
 
 const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#009688'}) => {
     const [color, setColor] = useState<string>();
-    const [dateCaptured, setDate] = useState(new Date());
-
-    const captureDate = () => {
-        setDate(new Date());
-    }
-
 
     const showBorder = () => {
         setColor(borderColor);
@@ -22,10 +18,6 @@ const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#009688'
 
     const hideBorder = () => {
         setColor('#9e9e9e') // on remet la bordure en gris
-    }
-
-    const formatDate = (date: Date): string => {
-        return `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`
     }
 
     return (
@@ -38,7 +30,9 @@ const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#009688'
                     <div className="card-content">
                         <p>{pokemon.name}</p>
                         <p><small>{formatDate(pokemon.created)}</small></p>
-                        <p><small>{pokemon.created.toString()}</small></p>
+                        {pokemon.types.map(type => (
+                            <span key={type} className={formatType(type)}>{type}</span>
+                        ))}
                     </div>
                 </div>
             </div>

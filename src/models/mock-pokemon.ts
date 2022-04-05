@@ -4,7 +4,7 @@ export const POKEMONS: Pokemon[] = [
         {
         "id": 1,
         "name": "Bulbizarre",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 45,
         "Attack": 49,
         "Defense": 49,
@@ -16,7 +16,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 2,
         "name": "Herbizarre",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 60,
         "Attack": 62,
         "Defense": 63,
@@ -28,7 +28,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 3,
         "name": "Florizarre",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 80,
         "Attack": 82,
         "Defense": 83,
@@ -40,7 +40,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 4,
         "name": "Salam\u00e8che",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 39,
         "Attack": 52,
         "Defense": 43,
@@ -52,7 +52,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 5,
         "name": "Reptincel",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 58,
         "Attack": 64,
         "Defense": 58,
@@ -64,7 +64,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 6,
         "name": "Dracaufeu",
-        "types": ["Fire", "Flying"],
+        "types": ["Feu", "Vol"],
         "hp": 78,
         "Attack": 84,
         "Defense": 78,
@@ -76,7 +76,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 7,
         "name": "Carapuce",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 44,
         "Attack": 48,
         "Defense": 65,
@@ -88,7 +88,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 8,
         "name": "Carabaffe",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 59,
         "Attack": 63,
         "Defense": 80,
@@ -100,7 +100,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 9,
         "name": "Tortank",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 79,
         "Attack": 83,
         "Defense": 100,
@@ -112,7 +112,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 10,
         "name": "Chenipan",
-        "types": ["Bug"],
+        "types": ["Insecte"],
         "hp": 45,
         "Attack": 30,
         "Defense": 35,
@@ -124,7 +124,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 11,
         "name": "Chrysacier",
-        "types": ["Bug"],
+        "types": ["Insecte"],
         "hp": 50,
         "Attack": 20,
         "Defense": 55,
@@ -136,7 +136,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 12,
         "name": "Papilusion",
-        "types": ["Bug", "Flying"],
+        "types": ["Insecte", "Vol"],
         "hp": 60,
         "Attack": 45,
         "Defense": 50,
@@ -149,7 +149,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 13,
         "name": "Aspicot",
-        "types": ["Bug", "Poison"],
+        "types": ["Insecte", "Poison"],
         "hp": 40,
         "Attack": 35,
         "Defense": 30,
@@ -161,7 +161,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 14,
         "name": "Coconfort",
-        "types": ["Bug", "Poison"],
+        "types": ["Insecte", "Poison"],
         "hp": 45,
         "Attack": 25,
         "Defense": 50,
@@ -173,7 +173,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 15,
         "name": "Dardargnan",
-        "types": ["Bug", "Poison"],
+        "types": ["Insecte", "Poison"],
         "hp": 65,
         "Attack": 90,
         "Defense": 40,
@@ -185,7 +185,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 16,
         "name": "Roucool",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 40,
         "Attack": 45,
         "Defense": 40,
@@ -197,7 +197,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 17,
         "name": "Roucoups",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 63,
         "Attack": 60,
         "Defense": 55,
@@ -209,7 +209,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 18,
         "name": "Roucarnage",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 83,
         "Attack": 80,
         "Defense": 75,
@@ -245,7 +245,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 21,
         "name": "Piafabec",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 40,
         "Attack": 60,
         "Defense": 30,
@@ -257,7 +257,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 22,
         "name": "Rapasdepic",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 65,
         "Attack": 90,
         "Defense": 65,
@@ -293,7 +293,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 25,
         "name": "Pikachu",
-        "types": ["Electric"],
+        "types": ["Electrik"],
         "hp": 35,
         "Attack": 55,
         "Defense": 40,
@@ -305,7 +305,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 26,
         "name": "Raichu",
-        "types": ["Electric"],
+        "types": ["Electrik"],
         "hp": 60,
         "Attack": 90,
         "Defense": 55,
@@ -317,7 +317,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 27,
         "name": "Sabelette",
-        "types": ["Ground"],
+        "types": ["Combat"],
         "hp": 50,
         "Attack": 75,
         "Defense": 85,
@@ -329,7 +329,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 28,
         "name": "Sablaireau",
-        "types": ["Ground"],
+        "types": ["Combat"],
         "hp": 75,
         "Attack": 100,
         "Defense": 110,
@@ -365,7 +365,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 31,
         "name": "Nidoqueen",
-        "types": ["Poison", "Ground"],
+        "types": ["Poison", "Combat"],
         "hp": 90,
         "Attack": 92,
         "Defense": 87,
@@ -401,7 +401,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 34,
         "name": "Nidoking",
-        "types": ["Poison", "Ground"],
+        "types": ["Poison", "Sol"],
         "hp": 81,
         "Attack": 102,
         "Defense": 77,
@@ -413,7 +413,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 35,
         "name": "M\u00e9lof\u00e9e",
-        "types": ["Fairy"],
+        "types": ["Fée"],
         "hp": 70,
         "Attack": 45,
         "Defense": 48,
@@ -425,7 +425,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 36,
         "name": "M\u00e9lodelfe",
-        "types": ["Fairy"],
+        "types": ["Fée"],
         "hp": 95,
         "Attack": 70,
         "Defense": 73,
@@ -437,7 +437,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 37,
         "name": "Goupix",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 38,
         "Attack": 41,
         "Defense": 40,
@@ -449,7 +449,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 38,
         "name": "Feunard",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 73,
         "Attack": 76,
         "Defense": 75,
@@ -461,7 +461,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 39,
         "name": "Rondoudou",
-        "types": ["Normal", "Fairy"],
+        "types": ["Normal", "Fée"],
         "hp": 115,
         "Attack": 45,
         "Defense": 20,
@@ -473,7 +473,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 40,
         "name": "Grodoudou",
-        "types": ["Normal", "Fairy"],
+        "types": ["Normal", "Fée"],
         "hp": 140,
         "Attack": 70,
         "Defense": 45,
@@ -485,7 +485,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 41,
         "name": "Nosferapti",
-        "types": ["Poison", "Flying"],
+        "types": ["Poison", "Vol"],
         "hp": 40,
         "Attack": 45,
         "Defense": 35,
@@ -497,7 +497,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 42,
         "name": "Nosferalto",
-        "types": ["Poison", "Flying"],
+        "types": ["Poison", "Vol"],
         "hp": 75,
         "Attack": 80,
         "Defense": 70,
@@ -509,7 +509,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 43,
         "name": "Mystherbe",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 45,
         "Attack": 50,
         "Defense": 55,
@@ -521,7 +521,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 44,
         "name": "Ortide",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 60,
         "Attack": 65,
         "Defense": 70,
@@ -533,7 +533,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 45,
         "name": "Rafflesia",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 75,
         "Attack": 80,
         "Defense": 85,
@@ -545,7 +545,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 46,
         "name": "Paras",
-        "types": ["Bug", "Grass"],
+        "types": ["Insecte", "Plante"],
         "hp": 35,
         "Attack": 70,
         "Defense": 55,
@@ -557,7 +557,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 47,
         "name": "Parasect",
-        "types": ["Bug", "Grass"],
+        "types": ["Insecte", "Plante"],
         "hp": 60,
         "Attack": 95,
         "Defense": 80,
@@ -569,7 +569,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 48,
         "name": "Mimitoss",
-        "types": ["Bug", "Poison"],
+        "types": ["Insecte", "Poison"],
         "hp": 60,
         "Attack": 55,
         "Defense": 50,
@@ -581,7 +581,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 49,
         "name": "A\u00e9romite",
-        "types": ["Bug", "Poison"],
+        "types": ["Insecte", "Poison"],
         "hp": 70,
         "Attack": 65,
         "Defense": 60,
@@ -593,7 +593,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 50,
         "name": "Taupiqueur",
-        "types": ["Ground"],
+        "types": ["Sol"],
         "hp": 10,
         "Attack": 55,
         "Defense": 25,
@@ -605,7 +605,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 51,
         "name": "Triopikeur",
-        "types": ["Ground"],
+        "types": ["Sol"],
         "hp": 35,
         "Attack": 100,
         "Defense": 50,
@@ -641,7 +641,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 54,
         "name": "Psykokwak",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 50,
         "Attack": 52,
         "Defense": 48,
@@ -653,7 +653,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 55,
         "name": "Akwakwak",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 80,
         "Attack": 82,
         "Defense": 78,
@@ -665,7 +665,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 56,
         "name": "F\u00e9rosinge",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 40,
         "Attack": 80,
         "Defense": 35,
@@ -677,7 +677,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 57,
         "name": "Colossinge",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 65,
         "Attack": 105,
         "Defense": 60,
@@ -689,7 +689,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 58,
         "name": "Caninos",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 55,
         "Attack": 70,
         "Defense": 45,
@@ -701,7 +701,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 59,
         "name": "Arcanin",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 90,
         "Attack": 110,
         "Defense": 80,
@@ -713,7 +713,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 60,
         "name": "Ptitard",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 40,
         "Attack": 50,
         "Defense": 40,
@@ -725,7 +725,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 61,
         "name": "T\u00eatarte",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 65,
         "Attack": 65,
         "Defense": 65,
@@ -737,7 +737,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 62,
         "name": "Tartard",
-        "types": ["Water", "Fighting"],
+        "types": ["Eau", "Combat"],
         "hp": 90,
         "Attack": 95,
         "Defense": 95,
@@ -749,7 +749,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 63,
         "name": "Abra",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 25,
         "Attack": 20,
         "Defense": 15,
@@ -761,7 +761,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 64,
         "name": "Kadabra",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 40,
         "Attack": 35,
         "Defense": 30,
@@ -773,7 +773,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 65,
         "name": "Alakazam",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 55,
         "Attack": 50,
         "Defense": 45,
@@ -785,7 +785,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 66,
         "name": "Machoc",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 70,
         "Attack": 80,
         "Defense": 50,
@@ -797,7 +797,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 67,
         "name": "Machopeur",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 80,
         "Attack": 100,
         "Defense": 70,
@@ -809,7 +809,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 68,
         "name": "Mackogneur",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 90,
         "Attack": 130,
         "Defense": 80,
@@ -821,7 +821,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 69,
         "name": "Ch\u00e9tiflor",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 50,
         "Attack": 75,
         "Defense": 35,
@@ -833,7 +833,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 70,
         "name": "Boustiflor",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 65,
         "Attack": 90,
         "Defense": 50,
@@ -845,7 +845,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 71,
         "name": "Empiflor",
-        "types": ["Grass", "Poison"],
+        "types": ["Plante", "Poison"],
         "hp": 80,
         "Attack": 105,
         "Defense": 65,
@@ -857,7 +857,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 72,
         "name": "Tentacool",
-        "types": ["Water", "Poison"],
+        "types": ["Eau", "Poison"],
         "hp": 40,
         "Attack": 40,
         "Defense": 35,
@@ -869,7 +869,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 73,
         "name": "Tentacruel",
-        "types": ["Water", "Poison"],
+        "types": ["Eau", "Poison"],
         "hp": 80,
         "Attack": 70,
         "Defense": 65,
@@ -881,7 +881,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 74,
         "name": "Racaillou",
-        "types": ["Rock", "Ground"],
+        "types": ["Rock", "Sol"],
         "hp": 40,
         "Attack": 80,
         "Defense": 100,
@@ -893,7 +893,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 75,
         "name": "Gravalanch",
-        "types": ["Rock", "Ground"],
+        "types": ["Rock", "Sol"],
         "hp": 55,
         "Attack": 95,
         "Defense": 115,
@@ -905,7 +905,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 76,
         "name": "Grolem",
-        "types": ["Rock", "Ground"],
+        "types": ["Rock", "Sol"],
         "hp": 80,
         "Attack": 120,
         "Defense": 130,
@@ -917,7 +917,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 77,
         "name": "Ponyta",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 50,
         "Attack": 85,
         "Defense": 55,
@@ -929,7 +929,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 78,
         "name": "Galopa",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 65,
         "Attack": 100,
         "Defense": 70,
@@ -941,7 +941,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 79,
         "name": "Ramoloss",
-        "types": ["Water", "Psychic"],
+        "types": ["Eau", "Psy"],
         "hp": 90,
         "Attack": 65,
         "Defense": 65,
@@ -953,7 +953,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 80,
         "name": "Flagadoss",
-        "types": ["Water", "Psychic"],
+        "types": ["Eau", "Psy"],
         "hp": 95,
         "Attack": 75,
         "Defense": 110,
@@ -965,7 +965,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 81,
         "name": "Magn\u00e9ti",
-        "types": ["Electric", "Steel"],
+        "types": ["Electrik", "Steel"],
         "hp": 25,
         "Attack": 35,
         "Defense": 70,
@@ -977,7 +977,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 82,
         "name": "Magn\u00e9ton",
-        "types": ["Electric", "Steel"],
+        "types": ["Electrik", "Steel"],
         "hp": 50,
         "Attack": 60,
         "Defense": 95,
@@ -989,7 +989,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 83,
         "name": "Canarticho",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 52,
         "Attack": 90,
         "Defense": 55,
@@ -1001,7 +1001,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 84,
         "name": "Doduo",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 35,
         "Attack": 85,
         "Defense": 45,
@@ -1013,7 +1013,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 85,
         "name": "Dodrio",
-        "types": ["Normal", "Flying"],
+        "types": ["Normal", "Vol"],
         "hp": 60,
         "Attack": 110,
         "Defense": 70,
@@ -1025,7 +1025,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 86,
         "name": "Otaria",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 65,
         "Attack": 45,
         "Defense": 55,
@@ -1037,7 +1037,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 87,
         "name": "Lamantine",
-        "types": ["Water", "Ice"],
+        "types": ["Eau", "Glace"],
         "hp": 90,
         "Attack": 70,
         "Defense": 80,
@@ -1073,7 +1073,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 90,
         "name": "Kokiyas",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 30,
         "Attack": 65,
         "Defense": 100,
@@ -1085,7 +1085,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 91,
         "name": "Crustabri",
-        "types": ["Water", "Ice"],
+        "types": ["Eau", "Glace"],
         "hp": 50,
         "Attack": 95,
         "Defense": 180,
@@ -1133,7 +1133,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 95,
         "name": "Onix",
-        "types": ["Rock", "Ground"],
+        "types": ["Rock", "Sol"],
         "hp": 35,
         "Attack": 45,
         "Defense": 160,
@@ -1145,7 +1145,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 96,
         "name": "Soporifik",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 60,
         "Attack": 48,
         "Defense": 45,
@@ -1157,7 +1157,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 97,
         "name": "Hypnomade",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 85,
         "Attack": 73,
         "Defense": 70,
@@ -1169,7 +1169,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 98,
         "name": "Krabby",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 30,
         "Attack": 105,
         "Defense": 90,
@@ -1181,7 +1181,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 99,
         "name": "Krabboss",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 55,
         "Attack": 130,
         "Defense": 115,
@@ -1193,7 +1193,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 100,
         "name": "Voltorbe",
-        "types": ["Electric"],
+        "types": ["Electrik"],
         "hp": 40,
         "Attack": 30,
         "Defense": 50,
@@ -1205,7 +1205,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 101,
         "name": "\u00c9lectrode",
-        "types": ["Electric"],
+        "types": ["Electrik"],
         "hp": 60,
         "Attack": 50,
         "Defense": 70,
@@ -1217,7 +1217,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 102,
         "name": "Noeunoeuf",
-        "types": ["Grass", "Psychic"],
+        "types": ["Plante", "Psy"],
         "hp": 60,
         "Attack": 40,
         "Defense": 80,
@@ -1229,7 +1229,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 103,
         "name": "Noadkoko",
-        "types": ["Grass", "Psychic"],
+        "types": ["Plante", "Psy"],
         "hp": 95,
         "Attack": 95,
         "Defense": 85,
@@ -1241,7 +1241,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 104,
         "name": "Osselait",
-        "types": ["Ground"],
+        "types": ["Sol"],
         "hp": 50,
         "Attack": 50,
         "Defense": 95,
@@ -1253,7 +1253,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 105,
         "name": "Ossatueur",
-        "types": ["Ground"],
+        "types": ["Sol"],
         "hp": 60,
         "Attack": 80,
         "Defense": 110,
@@ -1265,7 +1265,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 106,
         "name": "Kicklee",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 50,
         "Attack": 120,
         "Defense": 53,
@@ -1277,7 +1277,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 107,
         "name": "Tygnon",
-        "types": ["Fighting"],
+        "types": ["Combat"],
         "hp": 50,
         "Attack": 105,
         "Defense": 79,
@@ -1325,7 +1325,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 111,
         "name": "Rhinocorne",
-        "types": ["Ground", "Rock"],
+        "types": ["Sol", "Rock"],
         "hp": 80,
         "Attack": 85,
         "Defense": 95,
@@ -1337,7 +1337,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 112,
         "name": "Rhinof\u00e9ros",
-        "types": ["Ground", "Rock"],
+        "types": ["Sol", "Roche"],
         "hp": 105,
         "Attack": 130,
         "Defense": 120,
@@ -1361,7 +1361,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 114,
         "name": "Saquedeneu",
-        "types": ["Grass"],
+        "types": ["Plante"],
         "hp": 65,
         "Attack": 55,
         "Defense": 115,
@@ -1385,7 +1385,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 116,
         "name": "Hypotrempe",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 30,
         "Attack": 40,
         "Defense": 70,
@@ -1397,7 +1397,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 117,
         "name": "Hypocéan",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 55,
         "Attack": 65,
         "Defense": 95,
@@ -1409,7 +1409,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 118,
         "name": "Poissirène",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 45,
         "Attack": 67,
         "Defense": 60,
@@ -1421,7 +1421,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 119,
         "name": "Poissoroy",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 80,
         "Attack": 92,
         "Defense": 65,
@@ -1433,7 +1433,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 120,
         "name": "Stari",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 30,
         "Attack": 45,
         "Defense": 55,
@@ -1445,7 +1445,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 121,
         "name": "Staross",
-        "types": ["Water", "Psychic"],
+        "types": ["Eau", "Psy"],
         "hp": 60,
         "Attack": 75,
         "Defense": 85,
@@ -1457,7 +1457,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 122,
         "name": "M. Mime",
-        "types": ["Psychic", "Fairy"],
+        "types": ["Psy", "Fée"],
         "hp": 40,
         "Attack": 45,
         "Defense": 65,
@@ -1469,7 +1469,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 123,
         "name": "Insécateur",
-        "types": ["Bug", "Flying"],
+        "types": ["Insecte", "Vol"],
         "hp": 70,
         "Attack": 110,
         "Defense": 80,
@@ -1481,7 +1481,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 124,
         "name": "Lippoutou",
-        "types": ["Ice", "Psychic"],
+        "types": ["Glace", "Psy"],
         "hp": 65,
         "Attack": 50,
         "Defense": 35,
@@ -1493,7 +1493,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 125,
         "name": "\u00c9lektek",
-        "types": ["Electric"],
+        "types": ["Electrik"],
         "hp": 65,
         "Attack": 83,
         "Defense": 57,
@@ -1505,7 +1505,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 126,
         "name": "Magmar",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 65,
         "Attack": 95,
         "Defense": 57,
@@ -1517,7 +1517,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 127,
         "name": "Scarabrute",
-        "types": ["Bug"],
+        "types": ["Insecte"],
         "hp": 65,
         "Attack": 125,
         "Defense": 100,
@@ -1541,7 +1541,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 129,
         "name": "Magicarpe",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 20,
         "Attack": 10,
         "Defense": 55,
@@ -1553,7 +1553,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 130,
         "name": "L\u00e9viator",
-        "types": ["Water", "Flying"],
+        "types": ["Eau", "Vol"],
         "hp": 95,
         "Attack": 125,
         "Defense": 79,
@@ -1565,7 +1565,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 131,
         "name": "Lokhlass",
-        "types": ["Water", "Ice"],
+        "types": ["Eau", "Glace"],
         "hp": 130,
         "Attack": 85,
         "Defense": 80,
@@ -1601,7 +1601,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 134,
         "name": "Aquali",
-        "types": ["Water"],
+        "types": ["Eau"],
         "hp": 130,
         "Attack": 65,
         "Defense": 60,
@@ -1613,7 +1613,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 135,
         "name": "Voltali",
-        "types": ["Electric"],
+        "types": ["Electrik"],
         "hp": 65,
         "Attack": 65,
         "Defense": 60,
@@ -1625,7 +1625,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 136,
         "name": "Pyroli",
-        "types": ["Fire"],
+        "types": ["Feu"],
         "hp": 65,
         "Attack": 130,
         "Defense": 60,
@@ -1649,7 +1649,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 138,
         "name": "Amonita",
-        "types": ["Rock", "Water"],
+        "types": ["Roche", "Eau"],
         "hp": 35,
         "Attack": 40,
         "Defense": 100,
@@ -1661,7 +1661,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 139,
         "name": "Amonistar",
-        "types": ["Rock", "Water"],
+        "types": ["Roche", "Eau"],
         "hp": 70,
         "Attack": 60,
         "Defense": 125,
@@ -1673,7 +1673,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 140,
         "name": "Kabuto",
-        "types": ["Rock", "Water"],
+        "types": ["Roche", "Eau"],
         "hp": 30,
         "Attack": 80,
         "Defense": 90,
@@ -1685,7 +1685,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 141,
         "name": "Kabutops",
-        "types": ["Rock", "Water"],
+        "types": ["Roche", "Eau"],
         "hp": 60,
         "Attack": 115,
         "Defense": 105,
@@ -1697,7 +1697,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 142,
         "name": "Pt\u00e9ra",
-        "types": ["Rock", "Flying"],
+        "types": ["Roche", "Vol"],
         "hp": 80,
         "Attack": 105,
         "Defense": 65,
@@ -1721,7 +1721,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 144,
         "name": "Artikodin",
-        "types": ["Ice", "Flying"],
+        "types": ["Glace", "Vol"],
         "hp": 90,
         "Attack": 85,
         "Defense": 100,
@@ -1733,7 +1733,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 145,
         "name": "\u00c9lecthor",
-        "types": ["Electric", "Flying"],
+        "types": ["Electrik", "Vol"],
         "hp": 90,
         "Attack": 90,
         "Defense": 85,
@@ -1745,7 +1745,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 146,
         "name": "Sulfura",
-        "types": ["Fire", "Flying"],
+        "types": ["Feu", "Vol"],
         "hp": 90,
         "Attack": 100,
         "Defense": 90,
@@ -1781,7 +1781,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 149,
         "name": "Dracolosse",
-        "types": ["Dragon", "Flying"],
+        "types": ["Dragon", "Vol"],
         "hp": 91,
         "Attack": 134,
         "Defense": 95,
@@ -1793,7 +1793,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 150,
         "name": "Mewtwo",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 106,
         "Attack": 110,
         "Defense": 90,
@@ -1805,7 +1805,7 @@ export const POKEMONS: Pokemon[] = [
     }, {
         "id": 151,
         "name": "Mew",
-        "types": ["Psychic"],
+        "types": ["Psy"],
         "hp": 100,
         "Attack": 100,
         "Defense": 100,
