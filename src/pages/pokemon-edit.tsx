@@ -23,7 +23,7 @@ const PokemonEdit: FunctionComponent<RouteComponentProps<Params>> = ({match}) =>
           {pokemon ? (
               <div className="row">
                   <h2 className="header center">Editer {pokemon.name}</h2>
-                  <PokemonForm pokemon={pokemon}></PokemonForm>
+                  <PokemonForm pokemon={pokemon} isEditForm={true}></PokemonForm>
               </div>
           ) : (
               <h4 className="center">Aucun pokémon à afficher !</h4>

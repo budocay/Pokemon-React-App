@@ -14,7 +14,7 @@
         "typescript": "3.6.4"
     },
     "scripts": {
-        "start": "react-scripts --openssl-legacy-provider start",
+        "start": "react-scripts  start",
         "build": "react-scripts --openssl-legacy-provider build"
     },
     "eslintConfig": {

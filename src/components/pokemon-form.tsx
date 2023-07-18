@@ -4,6 +4,7 @@ import formatType from '../helpers/format-type';
 
 type Props = {
     pokemon: Pokemon
+    isEditForm?: boolean
 };
 
 type Field = {
@@ -30,7 +31,8 @@ const PokemonForm: FunctionComponent<Props> = ({pokemon}) => {
         'Dragon', 'Roche'
     ];
 
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
         const fieldName: string = e.target.name;
         const fieldValue: string = e.target.value;
         const newField: Field = {[fieldName]: {value: fieldValue}};
@@ -38,6 +40,22 @@ const PokemonForm: FunctionComponent<Props> = ({pokemon}) => {
         setForm({...form, ...newField});
     }
 
+    const selectType = (type: string, e: React.ChangeEvent<HTMLInputElement>): void => {
+        const checked = e.target.checked;
+        let newField: Field;
+
+        if (checked) {
+            // si l'user coche un type on l'ajoute a la lyste des types du pokémon
+            const newTypes: string[] = form.types.value.concat([type]);
+            newField = {value: newTypes};
+        } else {
+            // Si l'yser déoche un type on le retire de la liste des types du pokémon
+            const newTypes: string[] = form.types.value.filter((currentType: string) => currentType !== type);
+            newField = {value: newTypes};
+        }
+
+        setForm({...form, ...{types: newField}});
+    }
     const [form, setForm] = useState<Form>({
         name: {value: pokemon.name, isValide: true},
         hp: {value: pokemon.hp, isValide: true},
@@ -65,33 +83,33 @@ const PokemonForm: FunctionComponent<Props> = ({pokemon}) => {
                                 {/* Pokemon name */}
                                 <div className="form-group">
                                     <label htmlFor="name">Nom</label>
-                                    <input id="name" type="text" className="form-control" value={form.name.value}></input>
+                                    <input id="name" name="name" type="text" className="form-control" value={form.name.value} onChange={e => handleInputChange(e)}></input>
                                 </div>
                                 {/* Pokemon hp */}
                                 <div className="form-group">
                                     <label htmlFor="hp">Point de vie</label>
-                                    <input id="hp" type="number" className="form-control" value={form.hp.value}></input>
+                                    <input id="hp" name="hp" type="number" className="form-control" value={form.hp.value} onChange={e => handleInputChange(e)}></input>
                                 </div>
                                 {/* Pokemon cp */}
                                 <div className="form-group">
                                     <label htmlFor="cp">Dégâts</label>
-                                    <input id="cp" type="number" className="form-control" value={form.cp.value}></input>
+                                    <input id="cp" name="cp" type="number" className="form-control" value={form.cp.value} onChange={e => handleInputChange(e)}></input>
                                 </div>
 
                                 {/* Pokemon Spe Attack */}
                                 <div className="form-group">
                                     <label htmlFor="spAttack">Attaque Spéciale</label>
-                                    <input id="spAttack" type="number" className="form-control" value={form.spAttack.value}></input>
+                                    <input id="spAttack" name="spAttack" type="number" className="form-control" value={form.spAttack.value} onChange={e => handleInputChange(e)}></input>
                                 </div>
                                 {/* Pokemon Spe Def */}
                                 <div className="form-group">
                                     <label htmlFor="spDef">Défense Spéciale</label>
-                                    <input id="spDef" type="number" className="form-control" value={form.spDef.value}></input>
+                                    <input id="spDef" name="spDef" type="number" className="form-control" value={form.spDef.value} onChange={e => handleInputChange(e)}></input>
                                 </div>
                                 {/* Pokemon Speed */}
                                 <div className="form-group">
                                     <label htmlFor="speed">Vitesse</label>
-                                    <input id="speed" type="number" className="form-control" value={form.speed.value}></input>
+                                    <input id="speed" name="speed" type="number" className="form-control" value={form.speed.value} onChange={e => handleInputChange(e)}></input>
                                 </div>
                                 {/* Pokemon types */}
                                 <div className="form-group">
@@ -99,7 +117,7 @@ const PokemonForm: FunctionComponent<Props> = ({pokemon}) => {
                                     {types.map(type => (
                                         <div key={type} style={{marginBottom: '10px'}}>
                                             <label>
-                                                <input id={type} type="checkbox" className="filled-in" value={type} checked={hasType(type)}></input>
+                                                <input id={type} type="checkbox" className="filled-in" value={type} checked={hasType(type)} onChange={e => selectType(type, e)}></input>
                                                 <span>
                                                     <p className={formatType(type)}>{ type }</p>
                                                 </span>
